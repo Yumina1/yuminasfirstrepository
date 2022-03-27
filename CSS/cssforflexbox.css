@@ -1,0 +1,139 @@
+
+
+body{
+    margin:0px;
+    padding:0px;
+    
+}
+
+span{
+    color:blue;
+    font-size: x-large;
+}
+
+header{
+    background-color: skyblue;  
+}
+
+header h1{
+    color:aliceblue;
+    font-weight:normal;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+
+header p{
+    margin-top:0;
+    color:aliceblue;
+}
+
+.headerwidth{
+    width:900px;
+    margin:auto;
+    padding-right:40px;
+    padding-left:40px;
+    margin-bottom: 0;
+}
+
+
+.navmenu{         /*navigation menu */
+    display: flex;
+} 
+
+.menulist{
+    flex:1;
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+    border-right:solid skyblue;
+    padding:15px 10px;
+}
+
+.navmenu a{
+    text-decoration: none;
+    color: skyblue;
+    font-size: large;
+
+}
+
+.navmenu:hover{
+    color:white;
+}
+
+.menulist:hover{
+    background-color: skyblue;
+    color:white;
+}
+
+.conteinerlayaot{    /*outline of contents area */
+    width:900px;
+    margin:auto;
+    display: flex;
+    padding-right:40px;
+    padding-left:40px;
+}
+.main{
+    flex:3;
+    margin-right:30px;
+}
+
+.side{
+    flex:1;
+}
+
+.boxflex{  /*3boxes inside the contents area */
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxa{
+    padding:10px;
+    flex-basis:30%;
+    box-sizing: border-box;
+}
+
+.boxa:nth-child(1){background-color: blanchedalmond;}
+.boxa:nth-child(2){background-color:beige}
+.boxa:nth-child(3){background-color: azure;}
+
+@media (max-width: 900px) {
+    .conteinerlayaot{
+        width:auto;
+        flex-direction: column;
+        padding-right: 0;
+    }
+    .boxflex{
+        flex-direction: column;
+    }
+     
+    .headerwidth{
+     width:auto;
+     margin:auto;
+     padding-right:40px;
+     padding-left:40px;
+     }
+
+     .side{
+         padding-right: 40px;
+     }
+    
+}
+
+@media(max-width: 500px){
+
+    .navmenu{
+        flex-wrap: wrap;
+    } 
+    
+    .menulist{
+        flex-basis: 50%;
+        border-bottom:solid skyblue;
+        box-sizing: border-box;
+        padding:10px;
+        
+  }
+   .navmenu a{
+       font-size: small;
+   }
+    }
+

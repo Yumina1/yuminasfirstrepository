@@ -366,13 +366,16 @@ footer .highlight{
     .main-area{
         width:100%;
     }
-.imagecaption{
-    position:static;
-    background-color: rgba(0,0,0,.5);
-    
-    
+    .imagecaption{
+        position:sticky;
+        background-color: rgba(0,0,0,.5);
+        margin-top: -13px;
+        padding:0px;
 }
 
+.imagecaption p {
+    font-size: small;
+}
 }
   
 /*------------------------------------------------------  S-in responsive px------------------------------------------------------------------------*/
