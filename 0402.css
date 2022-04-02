@@ -143,6 +143,7 @@ footer{
     }
 
     .profile{
+        
         flex-direction: column;
     }
 
@@ -151,7 +152,7 @@ footer{
     }
 
     .profiletext{
-        width:400px;
+        width:auto;
         margin: auto;
     }
 
