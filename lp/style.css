@@ -65,12 +65,8 @@ h1{
     z-index: 10;
 }
 
-.hedding span{
-    letter-spacing: 1px;
-}
-
 .intro span{
-    background-color:rgb(255, 216, 216);
+    background:linear-gradient(transparent 60%, rgb(249, 170, 170) 60%);
 }
 
 .hedding{
