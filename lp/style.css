@@ -1,0 +1,459 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.warp{
+    width:960px;
+    margin:auto;
+    background-color: white;
+}
+img{
+    width:100%;
+}
+
+.center{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+section{
+    margin-bottom:40px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.header{
+    position: relative;
+    width:960px;
+    height:420px;
+    box-sizing: border-box;
+    background-image: url("image/headerback.jpg");
+    background-repeat: no-repeat;
+    background-size: 960px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.headinner{
+    position: absolute;
+    bottom: 80;
+    left:80;
+    z-index: 20;
+}
+
+h1{
+    color:white;
+    font-size:50px;
+    text-shadow:2px 2px 5px black;
+}
+
+.headerimg{
+    position: absolute;
+    right:10;
+}
+
+.headerimg img{
+    width:300px;
+    height:420px;
+    object-fit: cover;
+    object-position: 0% 0%;
+    z-index: 10;
+}
+
+.hedding span{
+    letter-spacing: 1px;
+}
+
+.intro span{
+    background-color:rgb(255, 216, 216);
+}
+
+.hedding{
+    letter-spacing: 10px;
+    background-color: #CDCDCD;
+    padding:30px;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tokutyou{
+    padding:0;
+    list-style-type: none;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.tokutyou li{
+   color:white;
+   font-size: larger;
+   background-color:rgb(173, 29, 29) ;
+   padding:15px;
+   width:32%;
+   border-radius: 5px;
+   box-sizing: border-box;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name{
+    color:white;
+    background-color: rgb(173, 29, 29);
+    padding:20px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.voicewarp{
+    border:solid 1px #CDCDCD;
+    border-radius: 5px;
+    padding:20px;
+}
+
+.voicehead{
+    margin-top:10px;
+    font-size: xx-large;
+}
+
+.userimage1{
+    display: flex;
+}
+
+.userimage{
+    display: flex;
+}
+
+.userimage1 img{
+    object-fit: cover;
+    height: 400px;
+}
+
+.userimage1 dt img{
+    object-position:25%;
+}
+
+.userimage1 dd img{
+    object-position:90%;
+}
+
+.imgrelative{
+    position: relative;
+}
+
+.imgabsolute{
+    position: absolute;
+    color:white;
+    font-size: large;
+    font-weight: 600;
+    background-color:rgba(0, 0, 0,.6);
+    padding:10px 15px;
+    bottom:0;
+    left:0;
+}
+
+.imgrelative .after{
+    color:black;
+    font-weight: 600;
+    background-color:rgba(255, 255, 255,.7);
+}
+
+.imgabsolute2{
+    position: absolute;
+    color:white;
+    font-size: large;
+    font-weight: 600;
+    background-color:rgba(0, 0, 0,.6);
+    padding:10px 15px;
+    bottom:0;
+    left:215;
+}
+
+.imgabsolute2 .after{
+    color:black;
+    font-weight: 600;
+    background-color:rgba(255, 255, 255,.7);
+    right: 0;
+    
+}
+
+dl{
+    margin:0;
+}
+
+dd{
+    margin:0;
+}
+
+.userimage dt{
+    margin-right:10px;
+
+}
+
+.userimage dd{
+    margin-right:10px;
+}
+
+.beforeafter{
+    display: flex;
+    justify-content: space-around;
+    padding:0;
+    margin: 0;
+}
+
+.beforeafter li{
+    list-style-type: none;
+    margin-right:10px;
+    flex:1;
+}
+
+.beforeafter li img{
+    box-sizing: border-box;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.voice{
+    background-color:#f7e6e6;
+    margin: 20px;
+    padding:20px;
+    border-radius: 5px;
+    
+}
+
+.caption{
+    text-align: right;
+    color:red;
+}
+
+.price{
+    font-size: xx-large;
+    width:33%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(173, 29, 29);
+    color: white;
+    padding:30px;
+    box-sizing: border-box;
+    margin:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price span{
+    font-size:small;
+}
+
+.adress{
+    display: flex;
+    justify-content:space-between;
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    
+}
+
+.adress li{
+    flex:1;
+    box-sizing: border-box;
+    margin-left:10px;
+}
+
+.cv{
+    color:white;
+    font-size: x-large;
+    padding:20px;
+    background-color: rgb(173, 29, 29);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cv:hover{
+    background-color: red;
+}
+
+form{
+    padding-left:50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
+    width:100%;
+    box-sizing: border-box;
+    display: block;
+    padding:0 10px;
+    height: 40px;
+    font-size: large;
+}
+
+fieldset{
+border:solid 1px #CDCDCD;
+}
+
+textarea{
+    width:100%;
+    height:150px;
+    font-size: large;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    width:100%;
+    height:50px;
+    background-color: rgb(173, 29, 29);
+    color:white;
+    border:0px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+input[type="submit"]:hover{
+    background-color:red;
+}
+
+footer{
+    color: #CDCDCD;
+    text-align: center;
+    margin:30px;
+}
+
+@media screen and (max-width:600px){
+    .warp{
+        width:auto;
+        margin:auto;
+    }
+
+    .header{
+        width:auto;
+        height:300px;
+    }
+    
+    h1{
+        font-size:30px;
+        background-color:rgba(0, 0, 0,);
+        margin:0;
+    }
+
+    .headinner{
+        position: absolute;
+        bottom:20;
+        left:10;
+    }
+    
+    .headerimg img{
+        width:220px;
+        height:300px;
+        object-fit: cover;
+        object-position: 0% 0%;
+    }
+
+    .hedding{
+        letter-spacing: 5px;
+        font-size: x-large;
+        padding:20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tokutyou{
+        padding:0;
+        list-style-type: none;
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .tokutyou li{
+        color:white;
+        font-size: small;
+        background-color:rgb(173, 29, 29) ;
+        padding:10px;
+        width:90%;
+        margin:auto;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .voicehead{
+        margin-top:10px;
+        font-size: x-large;
+    }
+
+    .userimage1{
+        flex-direction: column;
+        
+    }
+
+    .userimage{
+        margin-bottom: 10px;
+    }
+
+    .userimage dd{
+        margin-right:0;
+        
+    }
+
+    .beforeafter{
+        flex-direction: column;
+    }
+    .beforeafter li{
+        margin-right: 0;
+        padding-bottom: 10px;
+    }
+    .beforeafter li img{
+        box-sizing: border-box;
+        width:100%;
+        height:auto;
+        object-fit: cover;
+    }
+
+    .imgrelative .after{
+        color:black;
+        font-weight: 600;
+        background-color:rgba(255, 255, 255,.7);
+        left: auto;
+        right: 0px;
+        text-align: right;
+    }
+
+    .price{
+        width:100%;
+        padding:10px;
+        margin-bottom:10px;
+    }
+
+    .adress{
+        flex-direction: column;
+    }
+   
+    .adress li{
+        margin-left:0;
+    }
+
+    .voice{
+        padding:5px 15px;
+        margin: 10px;
+    }
+
+    form{
+        padding-left:20px;
+        padding-right: 20px;
+        
+    }
+}
